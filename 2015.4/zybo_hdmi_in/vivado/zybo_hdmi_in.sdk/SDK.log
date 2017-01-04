@@ -1,0 +1,136 @@
+17:26:27 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDSoC/2015.4/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+17:26:32 ERROR : Can not find SDSoC install location: 
+17:26:32 ERROR : Can not find SDSoC install location: 
+17:26:33 INFO  : XSDB server has started successfully.
+17:26:33 INFO  : Processing command line option -hwspec /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/zybo_hdmi_in_wrapper.hdf.
+17:26:34 INFO  : Validating SDSoC License
+17:45:39 INFO  : Saving repository preferences.
+17:45:39 INFO  : Reading in cores from local repositories: 
+		 /home/enjon/Dropbox/01_DIPLOME/06_linux/01_device_tree
+17:45:39 INFO  : Cleaning BSP projects in the workspace.
+18:09:00 ERROR : (XSDB Server)ERROR: [Hsi 55-1434] Error /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss:69	 PARAMETER name is not specified
+
+18:09:00 ERROR : (XSDB Server)ERROR: [Hsi 55-1535] Parsing MSS file /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss failed
+
+18:09:00 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+18:09:00 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+18:09:00 ERROR : (XSDB Server)ERROR: [Hsi 55-1434] Error /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss:69	 PARAMETER name is not specified
+
+18:09:00 ERROR : (XSDB Server)ERROR: [Hsi 55-1535] Parsing MSS file /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss failed
+
+18:09:00 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+18:09:01 INFO  : Unable to read in MSS file /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss : null
+18:09:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1434] Error /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss:69	 PARAMETER name is not specified
+
+18:09:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1535] Parsing MSS file /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss failed
+
+18:09:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+18:09:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1434] Error /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss:69	 PARAMETER name is not specified
+
+18:09:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1535] Parsing MSS file /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss failed
+
+18:09:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+18:09:01 ERROR : Failed to get_connected_periphs
+Reason: ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+
+18:09:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1434] Error /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss:69	 PARAMETER name is not specified
+
+18:09:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1535] Parsing MSS file /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss failed
+
+18:09:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+18:09:01 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+18:09:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1434] Error /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss:69	 PARAMETER name is not specified
+
+18:09:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1535] Parsing MSS file /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss failed
+
+18:09:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+18:09:01 INFO  : Unable to read in MSS file /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss : null
+18:09:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1434] Error /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss:69	 PARAMETER name is not specified
+
+18:09:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1535] Parsing MSS file /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss failed
+
+18:09:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+18:09:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1434] Error /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss:69	 PARAMETER name is not specified
+
+18:09:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1535] Parsing MSS file /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss failed
+
+18:09:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+18:09:02 ERROR : Failed to get_connected_periphs
+Reason: ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+
+18:09:02 ERROR : (XSDB Server)ERROR: [Hsi 55-1434] Error /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss:69	 PARAMETER name is not specified
+
+18:09:02 ERROR : (XSDB Server)ERROR: [Hsi 55-1535] Parsing MSS file /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss failed
+
+18:09:02 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+18:09:02 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+18:09:02 ERROR : (XSDB Server)ERROR: [Hsi 55-1434] Error /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss:69	 PARAMETER name is not specified
+
+18:09:02 ERROR : (XSDB Server)ERROR: [Hsi 55-1535] Parsing MSS file /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss failed
+
+18:09:02 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+18:09:02 INFO  : Unable to read in MSS file /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss : null
+18:09:02 ERROR : (XSDB Server)ERROR: [Hsi 55-1434] Error /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss:69	 PARAMETER name is not specified
+
+18:09:02 ERROR : (XSDB Server)ERROR: [Hsi 55-1535] Parsing MSS file /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss failed
+
+18:09:02 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+18:14:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1434] Error /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss:69	 PARAMETER name is not specified
+
+18:14:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1535] Parsing MSS file /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss failed
+
+18:14:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+18:14:01 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+18:14:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1434] Error /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss:69	 PARAMETER name is not specified
+
+18:14:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1535] Parsing MSS file /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss failed
+
+18:14:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+18:14:01 INFO  : Unable to read in MSS file /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss : null
+18:14:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1434] Error /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss:69	 PARAMETER name is not specified
+
+18:14:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1535] Parsing MSS file /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss failed
+
+18:14:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+18:14:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1434] Error /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss:69	 PARAMETER name is not specified
+
+18:14:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1535] Parsing MSS file /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss failed
+
+18:14:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+18:14:10 ERROR : (XSDB Server)ERROR: [Hsi 55-1434] Error /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss:69	 PARAMETER name is not specified
+
+18:14:10 ERROR : (XSDB Server)ERROR: [Hsi 55-1535] Parsing MSS file /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss failed
+
+18:14:10 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+18:14:10 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+18:14:10 ERROR : (XSDB Server)ERROR: [Hsi 55-1434] Error /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss:69	 PARAMETER name is not specified
+
+18:14:10 ERROR : (XSDB Server)ERROR: [Hsi 55-1535] Parsing MSS file /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss failed
+
+18:14:10 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+18:14:10 INFO  : Unable to read in MSS file /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss : null
+18:14:10 ERROR : (XSDB Server)ERROR: [Hsi 55-1434] Error /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss:69	 PARAMETER name is not specified
+
+18:14:10 ERROR : (XSDB Server)ERROR: [Hsi 55-1535] Parsing MSS file /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/device_tree_bsp_0/system.mss failed
+
+18:14:10 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+

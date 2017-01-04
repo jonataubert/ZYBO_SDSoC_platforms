@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest:Manifest xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:manifest="http://www.xilinx.com/manifest">
+    <template location="fast_corner_ocv_hls" name="FAST corner OpenCv HLS video" description="Demo that runs FAST corner implementation on the HDMI input stream and forwards it onto the VGA output. Controlled over UART at 115200 baud.">
+        <supports>
+            <and>
+                <or>
+                    <os name="Linux"/>
+                </or>
+            </and>
+        </supports>
+    </template>
+</manifest:Manifest>

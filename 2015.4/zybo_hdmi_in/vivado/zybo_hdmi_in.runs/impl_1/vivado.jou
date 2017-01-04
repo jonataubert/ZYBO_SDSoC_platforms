@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412968 on Wed Nov 18 10:19:19 MST 2015
+# Start of session at: Sun Jul  3 02:58:25 2016
+# Process ID: 11866
+# Current directory: /home/enjon/Dropbox/01_DIPLOME/09_platforms/zybo_hdmi_light_linux/zybo_hdmi_in/vivado/zybo_hdmi_in.runs/impl_1
+# Command line: vivado -log zybo_hdmi_in_wrapper.vdi -applog -messageDb vivado.pb -mode batch -source zybo_hdmi_in_wrapper.tcl -notrace
+# Log file: /home/enjon/Dropbox/01_DIPLOME/09_platforms/zybo_hdmi_light_linux/zybo_hdmi_in/vivado/zybo_hdmi_in.runs/impl_1/zybo_hdmi_in_wrapper.vdi
+# Journal file: /home/enjon/Dropbox/01_DIPLOME/09_platforms/zybo_hdmi_light_linux/zybo_hdmi_in/vivado/zybo_hdmi_in.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source zybo_hdmi_in_wrapper.tcl -notrace

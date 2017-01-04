@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412968 on Wed Nov 18 10:19:19 MST 2015
+# Start of session at: Fri May 13 16:52:12 2016
+# Process ID: 31825
+# Current directory: /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.runs/synth_1
+# Command line: vivado -log zybo_hdmi_in_wrapper.vds -mode batch -messageDb vivado.pb -notrace -source zybo_hdmi_in_wrapper.tcl
+# Log file: /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.runs/synth_1/zybo_hdmi_in_wrapper.vds
+# Journal file: /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source zybo_hdmi_in_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.ipdefs/repo_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/SDSoC/2015.4/Vivado/2015.4/data/ip'.
+add_files: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 966.309 ; gain = 66.328 ; free physical = 62 ; free virtual = 4577
+Command: synth_design -top zybo_hdmi_in_wrapper -part xc7z010clg400-1 -flatten_hierarchy none -directive RuntimeOptimized -fsm_extraction off
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+WARNING: [Synth 8-992] S_AXI_GP0_ACLK_temp is already implicitly declared earlier [/home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.srcs/sources_1/bd/zybo_hdmi_in/ip/zybo_hdmi_in_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2701]
+WARNING: [Synth 8-992] S_AXI_GP1_ACLK_temp is already implicitly declared earlier [/home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.srcs/sources_1/bd/zybo_hdmi_in/ip/zybo_hdmi_in_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2702]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 1072.598 ; gain = 243.953 ; free physical = 88 ; free virtual = 4358
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-1565] actual for formal port rst is neither a static name nor a globally static expression [/home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.srcs/sources_1/bd/zybo_hdmi_in/ipshared/digilentinc.com/axi_dynclk_v1_0/src/axi_dynclk.vhd:225]
+WARNING: [Synth 8-1565] actual for formal port s1_clkout0 is neither a static name nor a globally static expression [/home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.srcs/sources_1/bd/zybo_hdmi_in/ipshared/digilentinc.com/axi_dynclk_v1_0/src/axi_dynclk.vhd:227]
+WARNING: [Synth 8-1565] actual for formal port s1_clkfbout is neither a static name nor a globally static expression [/home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.srcs/sources_1/bd/zybo_hdmi_in/ipshared/digilentinc.com/axi_dynclk_v1_0/src/axi_dynclk.vhd:228]
+WARNING: [Synth 8-1565] actual for formal port s1_lock is neither a static name nor a globally static expression [/home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.srcs/sources_1/bd/zybo_hdmi_in/ipshared/digilentinc.com/axi_dynclk_v1_0/src/axi_dynclk.vhd:230]
+WARNING: [Synth 8-1565] actual for formal port arst is neither a static name nor a globally static expression [/home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.srcs/sources_1/bd/zybo_hdmi_in/ipshared/digilentinc.com/dvi2rgb_v1_6/src/TMDS_Clocking.vhd:128]
+WARNING: [Synth 8-1565] actual for formal port arst is neither a static name nor a globally static expression [/home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.srcs/sources_1/bd/zybo_hdmi_in/ipshared/digilentinc.com/dvi2rgb_v1_6/src/dvi2rgb.vhd:158]
+WARNING: [Synth 8-1565] actual for formal port potherchrdy is neither a static name nor a globally static expression [/home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.srcs/sources_1/bd/zybo_hdmi_in/ipshared/digilentinc.com/dvi2rgb_v1_6/src/dvi2rgb.vhd:179]
+WARNING: [Synth 8-1565] actual for formal port potherchvld is neither a static name nor a globally static expression [/home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.srcs/sources_1/bd/zybo_hdmi_in/ipshared/digilentinc.com/dvi2rgb_v1_6/src/dvi2rgb.vhd:180]

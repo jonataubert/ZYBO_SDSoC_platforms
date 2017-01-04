@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# 
+# Start of session at: Mon May 16 23:03:39 2016
+# Process ID: 11757
+# Current directory: /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/webtalk/webtalk.log
+# Journal file: /home/enjon/Dropbox/01_DIPLOME/08_Vivado_prj/zybo_hdmi_in/zybo_hdmi_in.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

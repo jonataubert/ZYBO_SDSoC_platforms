@@ -1,0 +1,237 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------
+| Tool Version      : Vivado v.2015.4 (lin64) Build 1412921 Wed Nov 18 09:44:32 MST 2015
+| Date              : Sun Jul  3 03:03:15 2016
+| Host              : linux-x5h9.suse running 64-bit openSUSE Leap 42.1 (x86_64)
+| Command           : report_clock_utilization -file zybo_hdmi_in_wrapper_clock_utilization_routed.rpt
+| Design            : zybo_hdmi_in_wrapper
+| Device            : 7z010-clg400
+| Speed File        : -1  PRODUCTION 1.11 2014-09-11
+| Temperature Grade : C
+-------------------------------------------------------------------------------------------------------
+
+Clock Utilization Report
+
+Table of Contents
+-----------------
+1. Clock Primitive Utilization
+2. Details of Global Clocks
+3. Details of Regional Clocks
+4. Details of Multi-Regional Clocks
+5. Details of I/O Clocks
+6. Details of Local Clocks
+7. Clock Regions : Key Resource Utilization
+8. Net wise resources used in clock region X0Y0
+9. Net wise resources used in clock region X1Y0
+10. Net wise resources used in clock region X0Y1
+11. Net wise resources used in clock region X1Y1
+
+1. Clock Primitive Utilization
+------------------------------
+
++-------+------+-----------+-----------+
+| Type  | Used | Available | Num Fixed |
++-------+------+-----------+-----------+
+| BUFG  |    3 |        32 |         0 |
+| BUFH  |    0 |        48 |         0 |
+| BUFIO |    1 |         8 |         0 |
+| MMCM  |    2 |         2 |         0 |
+| PLL   |    0 |         2 |         0 |
+| BUFR  |    2 |         8 |         0 |
+| BUFMR |    0 |         4 |         0 |
++-------+------+-----------+-----------+
+
+
+2. Details of Global Clocks
+---------------------------
+
++-------+----------------------------------------------------------------------------+----------------------------------------------------+--------------+-------+
+|       |                                                                            |                                                    |   Num Loads  |       |
++-------+----------------------------------------------------------------------------+----------------------------------------------------+------+-------+-------+
+| Index | BUFG Cell                                                                  | Net Name                                           | BELs | Sites | Fixed |
++-------+----------------------------------------------------------------------------+----------------------------------------------------+------+-------+-------+
+|     1 | zybo_hdmi_in_i/processing_system7_0/inst/buffer_fclk_clk_2.FCLK_CLK_2_BUFG | zybo_hdmi_in_i/processing_system7_0/inst/FCLK_CLK2 |  162 |    53 |    no |
+|     2 | zybo_hdmi_in_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG | zybo_hdmi_in_i/processing_system7_0/inst/FCLK_CLK0 | 1655 |   441 |    no |
+|     3 | zybo_hdmi_in_i/processing_system7_0/inst/buffer_fclk_clk_1.FCLK_CLK_1_BUFG | zybo_hdmi_in_i/processing_system7_0/inst/FCLK_CLK1 | 4993 |  1300 |    no |
++-------+----------------------------------------------------------------------------+----------------------------------------------------+------+-------+-------+
+
+
++-------+--------------------------------------------------------------+-----------------------------------------------------------------+--------------+-------+
+|       |                                                              |                                                                 |   Num Loads  |       |
++-------+--------------------------------------------------------------+-----------------------------------------------------------------+------+-------+-------+
+| Index | MMCM Cell                                                    | Net Name                                                        | BELs | Sites | Fixed |
++-------+--------------------------------------------------------------+-----------------------------------------------------------------+------+-------+-------+
+|     1 | zybo_hdmi_in_i/axi_dynclk_0/U0/Inst_mmcme2_drp/mmcm_adv_inst | zybo_hdmi_in_i/axi_dynclk_0/U0/Inst_mmcme2_drp/I                |    1 |     1 |    no |
+|     2 | zybo_hdmi_in_i/axi_dynclk_0/U0/Inst_mmcme2_drp/mmcm_adv_inst | zybo_hdmi_in_i/axi_dynclk_0/U0/Inst_mmcme2_drp/mmcm_fbclk_out   |    1 |     1 |    no |
+|     3 | zybo_hdmi_in_i/dvi2rgb_0/U0/TMDS_ClockingX/DVI_ClkGenerator  | zybo_hdmi_in_i/dvi2rgb_0/U0/TMDS_ClockingX/CLKFBIN              |    1 |     1 |    no |
+|     4 | zybo_hdmi_in_i/dvi2rgb_0/U0/TMDS_ClockingX/DVI_ClkGenerator  | zybo_hdmi_in_i/dvi2rgb_0/U0/TMDS_ClockingX/DVI_ClkGenerator_n_4 |    2 |     2 |    no |
++-------+--------------------------------------------------------------+-----------------------------------------------------------------+------+-------+-------+
+
+
+3. Details of Regional Clocks
+-----------------------------
+
++-------+-----------------------------------------------------------+---------------------------------------------------------------+--------------+-------+
+|       |                                                           |                                                               |   Num Loads  |       |
++-------+-----------------------------------------------------------+---------------------------------------------------------------+------+-------+-------+
+| Index | BUFR Cell                                                 | Net Name                                                      | BELs | Sites | Fixed |
++-------+-----------------------------------------------------------+---------------------------------------------------------------+------+-------+-------+
+|     1 | zybo_hdmi_in_i/dvi2rgb_0/U0/TMDS_ClockingX/PixelClkBuffer | zybo_hdmi_in_i/dvi2rgb_0/U0/TMDS_ClockingX/oSyncStages_reg[0] |  572 |   158 |    no |
+|     2 | zybo_hdmi_in_i/axi_dynclk_0/U0/BUFR_inst                  | zybo_hdmi_in_i/axi_dynclk_0/U0/PXL_CLK_O                      | 2146 |   526 |    no |
++-------+-----------------------------------------------------------+---------------------------------------------------------------+------+-------+-------+
+
+
+4. Details of Multi-Regional Clocks
+-----------------------------------
+
+5. Details of I/O Clocks
+------------------------
+
++-------+------------------------------------------------------------+----------------------------------------------------------+--------------+-------+
+|       |                                                            |                                                          |   Num Loads  |       |
++-------+------------------------------------------------------------+----------------------------------------------------------+------+-------+-------+
+| Index | BUFIO Cell                                                 | Net Name                                                 | BELs | Sites | Fixed |
++-------+------------------------------------------------------------+----------------------------------------------------------+------+-------+-------+
+|     1 | zybo_hdmi_in_i/dvi2rgb_0/U0/TMDS_ClockingX/SerialClkBuffer | zybo_hdmi_in_i/dvi2rgb_0/U0/TMDS_ClockingX/pDataQ_reg[8] |    6 |    12 |    no |
++-------+------------------------------------------------------------+----------------------------------------------------------+------+-------+-------+
+
+
+6. Details of Local Clocks
+--------------------------
+
++-------+--------------------------------------------------------+---------------------------------------------------+--------------+-------+
+|       |                                                        |                                                   |   Num Loads  |       |
++-------+--------------------------------------------------------+---------------------------------------------------+------+-------+-------+
+| Index | Local Clk Src                                          | Net Name                                          | BELs | Sites | Fixed |
++-------+--------------------------------------------------------+---------------------------------------------------+------+-------+-------+
+|     1 | zybo_hdmi_in_i/dvi2rgb_0/U0/TMDS_ClockingX/InputBuffer | zybo_hdmi_in_i/dvi2rgb_0/U0/TMDS_ClockingX/CLKIN1 |    1 |     1 |   yes |
++-------+--------------------------------------------------------+---------------------------------------------------+------+-------+-------+
+
+
+7. Clock Regions : Key Resource Utilization
+-------------------------------------------
+
++-------------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+
+|                   | Global Clock |     BUFRs    |    BUFMRs    |    BUFIOs    |     MMCM     |      PLL     |      GT      |      PCI     |    ILOGIC    |    OLOGIC    |      FF      |     LUTM     |    RAMB18    |    RAMB36    |    DSP48E1   |
++-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
+| Clock Region Name | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail |
++-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
+| X0Y0              |    2 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 | 3570 |  8800 |  295 |  1600 |    0 |    20 |    3 |    10 |    0 |    20 |
+| X1Y0              |    2 |    12 |    1 |     4 |    0 |     2 |    0 |     4 |    1 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 | 3844 |  8800 |   90 |  1400 |    1 |    40 |    2 |    20 |    0 |    20 |
+| X0Y1              |    2 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |  431 |  8800 |   25 |  1600 |    0 |    20 |    0 |    10 |    0 |    20 |
+| X1Y1              |    3 |    12 |    1 |     4 |    0 |     2 |    1 |     4 |    1 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    6 |    50 |    0 |    50 | 1193 |  8800 |   50 |  1400 |    1 |    40 |    4 |    20 |    0 |    20 |
++-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
+* RAMB36 site can be used as two RAMB18/FIFO18 sites.
+
+
+8. Net wise resources used in clock region X0Y0
+-----------------------------------------------
+
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+----------------------------------------------------+
+| Source Type | BUFHCE Site | Fixed | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs |  FFs | LUTMs | DSP48E1s |                   Clock Net Name                   |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+----------------------------------------------------+
+| BUFG        | BUFHCE_X0Y9 |   no  |         0 |        0 |       0 |         0 |       0 |       0 |  372 |    47 |        0 | zybo_hdmi_in_i/processing_system7_0/inst/FCLK_CLK0 |
+| BUFG        | BUFHCE_X0Y8 |   no  |         0 |        0 |       0 |         6 |       0 |       0 | 3198 |   248 |        0 | zybo_hdmi_in_i/processing_system7_0/inst/FCLK_CLK1 |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+----------------------------------------------------+
+
+
+9. Net wise resources used in clock region X1Y0
+-----------------------------------------------
+
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+----------------------------------------------------+
+| Source Type | BUFHCE Site | Fixed | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs |  FFs | LUTMs | DSP48E1s |                   Clock Net Name                   |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+----------------------------------------------------+
+| BUFG        | BUFHCE_X1Y0 |   no  |         2 |        0 |       0 |         0 |       0 |       0 |  486 |     0 |        0 | zybo_hdmi_in_i/processing_system7_0/inst/FCLK_CLK0 |
+| BUFG        | BUFHCE_X1Y8 |   no  |         0 |        0 |       0 |         1 |       0 |       0 | 1222 |    83 |        0 | zybo_hdmi_in_i/processing_system7_0/inst/FCLK_CLK1 |
+| BUFR        |     ---     |   no  |         0 |        0 |       0 |         5 |       0 |       0 | 2136 |     7 |        0 | zybo_hdmi_in_i/axi_dynclk_0/U0/PXL_CLK_O           |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+----------------------------------------------------+
+
+
+10. Net wise resources used in clock region X0Y1
+------------------------------------------------
+
++-------------+--------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+----------------------------------------------------+
+| Source Type | BUFHCE Site  | Fixed | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs | FFs | LUTMs | DSP48E1s |                   Clock Net Name                   |
++-------------+--------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+----------------------------------------------------+
+| BUFG        | BUFHCE_X0Y20 |   no  |         0 |        0 |       0 |         0 |       0 |       0 |  54 |     1 |        0 | zybo_hdmi_in_i/processing_system7_0/inst/FCLK_CLK1 |
+| BUFG        | BUFHCE_X0Y21 |   no  |         0 |        0 |       0 |         0 |       0 |       0 | 377 |    24 |        0 | zybo_hdmi_in_i/processing_system7_0/inst/FCLK_CLK0 |
++-------------+--------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+----------------------------------------------------+
+
+
+11. Net wise resources used in clock region X1Y1
+------------------------------------------------
+
++-------------+--------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+---------------------------------------------------------------+
+| Source Type | BUFHCE Site  | Fixed | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs | FFs | LUTMs | DSP48E1s |                         Clock Net Name                        |
++-------------+--------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+---------------------------------------------------------------+
+| BUFIO       |      ---     |   no  |         0 |        0 |       0 |         0 |      12 |       0 |   0 |     0 |        0 | zybo_hdmi_in_i/dvi2rgb_0/U0/TMDS_ClockingX/pDataQ_reg[8]      |
+| BUFG        | BUFHCE_X1Y23 |   no  |         0 |        0 |       0 |         0 |       0 |       0 | 161 |     0 |        0 | zybo_hdmi_in_i/processing_system7_0/inst/FCLK_CLK2            |
+| BUFG        | BUFHCE_X1Y20 |   no  |         0 |        0 |       0 |         5 |       0 |       0 | 177 |     0 |        0 | zybo_hdmi_in_i/processing_system7_0/inst/FCLK_CLK1            |
+| BUFG        | BUFHCE_X1Y21 |   no  |         0 |        0 |       0 |         0 |       0 |       0 | 346 |     1 |        0 | zybo_hdmi_in_i/processing_system7_0/inst/FCLK_CLK0            |
+| BUFR        |      ---     |   no  |         0 |        0 |       0 |         5 |       6 |       0 | 509 |    49 |        0 | zybo_hdmi_in_i/dvi2rgb_0/U0/TMDS_ClockingX/oSyncStages_reg[0] |
++-------------+--------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+---------------------------------------------------------------+
+
+
+
+# Location of BUFG Primitives 
+set_property LOC BUFGCTRL_X0Y1 [get_cells zybo_hdmi_in_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG]
+set_property LOC BUFGCTRL_X0Y0 [get_cells zybo_hdmi_in_i/processing_system7_0/inst/buffer_fclk_clk_1.FCLK_CLK_1_BUFG]
+set_property LOC BUFGCTRL_X0Y2 [get_cells zybo_hdmi_in_i/processing_system7_0/inst/buffer_fclk_clk_2.FCLK_CLK_2_BUFG]
+
+# Location of IO Clock Primitives
+set_property LOC BUFIO_X0Y5 [get_cells zybo_hdmi_in_i/dvi2rgb_0/U0/TMDS_ClockingX/SerialClkBuffer]
+
+# Location of MMCM Clock Primitives
+set_property LOC MMCME2_ADV_X0Y0 [get_cells zybo_hdmi_in_i/axi_dynclk_0/U0/Inst_mmcme2_drp/mmcm_adv_inst]
+set_property LOC MMCME2_ADV_X0Y1 [get_cells zybo_hdmi_in_i/dvi2rgb_0/U0/TMDS_ClockingX/DVI_ClkGenerator]
+
+# Location of BUFH Clock Primitives
+
+# Location of BUFR Clock Primitives
+set_property LOC BUFR_X0Y1 [get_cells zybo_hdmi_in_i/axi_dynclk_0/U0/BUFR_inst]
+set_property LOC BUFR_X0Y5 [get_cells zybo_hdmi_in_i/dvi2rgb_0/U0/TMDS_ClockingX/PixelClkBuffer]
+
+# Location of BUFMR Clock Primitives
+
+# Location of PLL Clock Primitives
+
+# Location of IO Primitives which is load of clock spine
+
+# Location of clock ports
+set_property LOC IOB_X0Y73 [get_ports TMDS_clk_n]
+set_property LOC IOB_X0Y74 [get_ports TMDS_clk_p]
+
+# Clock net "zybo_hdmi_in_i/axi_dynclk_0/U0/PXL_CLK_O" driven by instance "zybo_hdmi_in_i/axi_dynclk_0/U0/BUFR_inst" located at site "BUFR_X0Y1"
+#startgroup
+create_pblock {CLKAG_zybo_hdmi_in_i/axi_dynclk_0/U0/PXL_CLK_O}
+add_cells_to_pblock [get_pblocks  {CLKAG_zybo_hdmi_in_i/axi_dynclk_0/U0/PXL_CLK_O}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="zybo_hdmi_in_i/axi_dynclk_0/U0/PXL_CLK_O"}]]]
+resize_pblock [get_pblocks {CLKAG_zybo_hdmi_in_i/axi_dynclk_0/U0/PXL_CLK_O}] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+#endgroup
+
+# Clock net "zybo_hdmi_in_i/dvi2rgb_0/U0/TMDS_ClockingX/oSyncStages_reg[0]" driven by instance "zybo_hdmi_in_i/dvi2rgb_0/U0/TMDS_ClockingX/PixelClkBuffer" located at site "BUFR_X0Y5"
+#startgroup
+create_pblock {CLKAG_zybo_hdmi_in_i/dvi2rgb_0/U0/TMDS_ClockingX/oSyncStages_reg[0]}
+add_cells_to_pblock [get_pblocks  {CLKAG_zybo_hdmi_in_i/dvi2rgb_0/U0/TMDS_ClockingX/oSyncStages_reg[0]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="zybo_hdmi_in_i/dvi2rgb_0/U0/TMDS_ClockingX/oSyncStages_reg[0]"}]]]
+resize_pblock [get_pblocks {CLKAG_zybo_hdmi_in_i/dvi2rgb_0/U0/TMDS_ClockingX/oSyncStages_reg[0]}] -add {CLOCKREGION_X1Y1:CLOCKREGION_X1Y1}
+#endgroup
+
+# Clock net "zybo_hdmi_in_i/processing_system7_0/inst/FCLK_CLK0" driven by instance "zybo_hdmi_in_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG" located at site "BUFGCTRL_X0Y1"
+#startgroup
+create_pblock {CLKAG_zybo_hdmi_in_i/processing_system7_0/inst/FCLK_CLK0}
+add_cells_to_pblock [get_pblocks  {CLKAG_zybo_hdmi_in_i/processing_system7_0/inst/FCLK_CLK0}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL && NAME!=zybo_hdmi_in_i/axi_dynclk_0/U0/Inst_mmcme2_drp/mmcm_adv_inst} -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="zybo_hdmi_in_i/processing_system7_0/inst/FCLK_CLK0"}]]]
+resize_pblock [get_pblocks {CLKAG_zybo_hdmi_in_i/processing_system7_0/inst/FCLK_CLK0}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1}
+#endgroup
+
+# Clock net "zybo_hdmi_in_i/processing_system7_0/inst/FCLK_CLK1" driven by instance "zybo_hdmi_in_i/processing_system7_0/inst/buffer_fclk_clk_1.FCLK_CLK_1_BUFG" located at site "BUFGCTRL_X0Y0"
+#startgroup
+create_pblock {CLKAG_zybo_hdmi_in_i/processing_system7_0/inst/FCLK_CLK1}
+add_cells_to_pblock [get_pblocks  {CLKAG_zybo_hdmi_in_i/processing_system7_0/inst/FCLK_CLK1}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="zybo_hdmi_in_i/processing_system7_0/inst/FCLK_CLK1"}]]]
+resize_pblock [get_pblocks {CLKAG_zybo_hdmi_in_i/processing_system7_0/inst/FCLK_CLK1}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1}
+#endgroup
+
+# Clock net "zybo_hdmi_in_i/processing_system7_0/inst/FCLK_CLK2" driven by instance "zybo_hdmi_in_i/processing_system7_0/inst/buffer_fclk_clk_2.FCLK_CLK_2_BUFG" located at site "BUFGCTRL_X0Y2"
+#startgroup
+create_pblock {CLKAG_zybo_hdmi_in_i/processing_system7_0/inst/FCLK_CLK2}
+add_cells_to_pblock [get_pblocks  {CLKAG_zybo_hdmi_in_i/processing_system7_0/inst/FCLK_CLK2}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="zybo_hdmi_in_i/processing_system7_0/inst/FCLK_CLK2"}]]]
+resize_pblock [get_pblocks {CLKAG_zybo_hdmi_in_i/processing_system7_0/inst/FCLK_CLK2}] -add {CLOCKREGION_X1Y1:CLOCKREGION_X1Y1}
+#endgroup
